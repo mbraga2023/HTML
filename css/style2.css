@@ -1,0 +1,30 @@
+/* COLORS 8*/
+
+html{
+    color: rgba(0, 0, 255, 1);
+    background-color: rgba(150, 0, 200, 0.5);
+}
+/*RGB = RED GREEN BLUE */
+/* Cada pixel pode ter 0 a 255 cada cor
+alpha = opacidade => 0 a 1 */
+
+/*base Hexadecimal
+0-1 + A-F = 16 valores
+cada digito da base representa 16 valores*/
+
+main{
+    background-color: #fff;
+  
+}
+h1{
+    color: #040624;
+      /*Background Img*/
+      background-image: url(https://www.freecodecamp.org/news/content/images/size/w1000/2021/06/w-qjCHPZbeXCQ-unsplash.jpg);
+    /* imagem é repetida = padrão esquerda para direita e de cima para baixo */
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: cover;
+    /* cover = ajusta a imagem na largura do elemento
+    contain = ajusta a imagem na altura do elemento */
+}
+

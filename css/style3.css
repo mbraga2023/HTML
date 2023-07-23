@@ -1,0 +1,44 @@
+body{
+    background-color: yellow;
+}
+.box{
+    box-sizing: border-box;
+    width: 5rem;
+    height: 5rem;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: 2px solid #000;
+    margin: 5px;
+    
+
+/*5 rem = 5 vezes o tamanho da fonte*/
+}
+/*pading = espacamento entre a borda e o conteudo*/
+
+.azul{
+    background-color: blue;
+    border-style: dotted;
+    border-radius: 50px;
+   
+
+}
+.verde{
+    background-color: green;
+    border-width: 10px 0 5px 3px;
+    /*medidas por lado - sentido horario*/
+    border-bottom-style:dotted ;
+    
+    margin-bottom: 50px;
+    
+
+}
+.vermelho{
+    background-color: red;
+    border-width: 5px;
+    /*borda uniforme todos os lados*/
+    border-bottom-width:0 ;
+    border-style: dashed;
+    border-top-left-radius: 30px;
+
+}

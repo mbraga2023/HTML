@@ -16,6 +16,20 @@ main{
     background-color: #fff;
   
 }
+main p{
+    text-indent: 1rem;
+    /*espacamento primeiro paragrafo*/
+}
+
+h1, h2, h3{
+    text-align: center;
+    /* nao se deve usar o texto justificado*/
+}
+
+h2#titulo-primeira-aula{
+    text-decoration: underline;
+    /*H2 com Id = #*/
+}
 h1{
     color: #040624;
       /*Background Img*/
@@ -27,4 +41,20 @@ h1{
     /* cover = ajusta a imagem na largura do elemento
     contain = ajusta a imagem na altura do elemento */
 }
+a {
+    cursor: crosshair;
+    text-decoration: none; /* Adding this to remove underline by default on anchor tags */
+}
 
+/* pseudo-seletores = definidos conforme o estado do elemento */
+a:active {
+    color: rgb(226, 16, 16);
+}
+
+a:visited {
+    color: aqua;    
+}
+
+a:hover {
+    color:chartreuse
+}

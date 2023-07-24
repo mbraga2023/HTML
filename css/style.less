@@ -1,0 +1,42 @@
+@cor: blue;
+@cor2: green;
+@cor3:#ffffff;
+@width: 0.50;
+
+.drop-shadow (){
+    text-shadow: 2px 1px 1px #ccc;
+    text-decoration: underline;
+    background-color: @cor2 * 0.5;
+
+}
+
+body{
+background-color: antiquewhite;
+}
+
+h1{
+    .drop-shadow()
+}
+
+p {
+    width: percentage(@width);
+    color: if(iscolor(@cor), @cor, red);
+
+    b{
+        color:@cor3;
+        background-color:@cor2;
+    }
+
+}
+.titulo-3{
+    .cores(30px, 'titulo-3')
+}
+.cores (@tamanho, @tag){
+    color:@cor;
+    font-size:@tamanho;
+    & when(@tag = 'titulo-3'){
+        text-shadow: 2px 1px 1px #7a7b7c;
+    }
+    
+}
+
